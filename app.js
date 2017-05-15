@@ -73,7 +73,7 @@ var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
 var test = 0;
-for (var i = 0; i , testArray.length; i++) {
+for (var i = 0; i < testArray.length; i++) {
   test = sum(test,testArray[i])[0];
 }
 var secondElement = (testArray + ' was passed in as an array of numbers, and ' + test + ' is their sum.');
